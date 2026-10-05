@@ -1,0 +1,1424 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Moça Bonita – Moda Íntima</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Pinyon+Script&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf3ee;--card:#fff;--ink:#4a2618;--mute:#8d6a5a;--pk:#9c5f45;--pk2:#7a3f2a;--ln:#ecd5c8;--ok:#1fa855;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1f1512;--card:#2b1e19;--ink:#f6e6dc;--mute:#cdaa98;--pk:#c28668;--pk2:#e0a98c;--ln:#4a352c}}
+:root[data-theme=dark]{--bg:#1f1512;--card:#2b1e19;--ink:#f6e6dc;--mute:#cdaa98;--pk:#c28668;--pk2:#e0a98c;--ln:#4a352c}
+*{box-sizing:border-box}html,body{margin:0}body{background:var(--bg);color:var(--ink);font:400 15px/1.45 Montserrat,system-ui,sans-serif}
+button{font:inherit;cursor:pointer;border:0}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--ln);display:flex;align-items:center;gap:10px;padding:10px 14px}
+.logo{font:400 30px "Pinyon Script",cursive;color:var(--pk2);flex:1;line-height:1}
+.btn{background:var(--pk);color:#fff;padding:10px 16px;border-radius:99px;font-weight:600;display:inline-flex;gap:6px;align-items:center;text-decoration:none}
+.btn.wa{background:#1f8f4e}.btn.ghost{background:var(--card);color:var(--pk2);border:1px solid var(--ln)}
+.hero{padding:26px 16px 10px;text-align:center}.hero img{width:150px;height:150px;border-radius:50%;box-shadow:0 8px 24px #5a2e1e33}.hero h1{font:600 30px "Cormorant Garamond",serif;letter-spacing:.14em;text-transform:uppercase;color:var(--pk2);margin:10px 0 0}.hero em{font:400 24px "Pinyon Script",cursive;color:var(--pk)}.hero p{margin:6px auto 0;max-width:520px;color:var(--mute)}
+.tools{padding:10px 14px;max-width:1200px;margin:auto}
+input[type=search],input[type=text],select,textarea{width:100%;padding:11px 14px;border:1px solid var(--ln);border-radius:12px;background:var(--card);color:var(--ink);font:inherit}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 0;scrollbar-width:none}.chip{white-space:nowrap;background:var(--card);color:var(--ink);border:1px solid var(--ln);padding:7px 14px;border-radius:99px;font-weight:600;font-size:13px}.chip.on{background:var(--pk);color:#fff;border-color:var(--pk)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:12px;padding:6px 14px 80px;max-width:1200px;margin:auto}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;cursor:pointer;background:var(--ln)}
+.card .b{padding:10px 12px 12px;display:flex;flex-direction:column;gap:4px;flex:1}.card h3{font-size:14px;margin:0}.ref{color:var(--mute);font-size:12px}.pr{font-weight:700;color:var(--pk2)}.pr.q{font-weight:600;color:var(--mute);font-size:12px}
+.card .btn{margin-top:auto;justify-content:center;padding:9px}
+.ov{position:fixed;inset:0;background:#0007;z-index:20;display:none;align-items:flex-end;justify-content:center}.ov.on{display:flex}
+.sheet{background:var(--bg);width:100%;max-width:640px;max-height:92vh;overflow:auto;border-radius:22px 22px 0 0;padding:16px 16px calc(18px + env(safe-area-inset-bottom,0px))}
+@media(min-width:700px){.ov{align-items:center}.sheet{border-radius:22px}}
+.sheet img.big{width:100%;max-height:52vh;object-fit:contain;border-radius:14px;background:var(--ln)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0}.sz{background:var(--card);border:1px solid var(--ln);color:var(--ink);padding:8px 14px;border-radius:10px;font-weight:600}.sz.on{background:var(--pk);color:#fff;border-color:var(--pk)}
+.x{float:right;background:var(--card);color:var(--ink);width:36px;height:36px;border-radius:50%;border:1px solid var(--ln)}
+.it{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid var(--ln)}.it img{width:56px;height:72px;object-fit:cover;border-radius:8px}.it div{flex:1;font-size:14px}.q{display:inline-flex;gap:8px;align-items:center}.q button{width:28px;height:28px;border-radius:50%;background:var(--card);color:var(--ink);border:1px solid var(--ln)}
+.note{font-size:12px;color:var(--mute)}.pixbox{word-break:break-all;font:12px monospace;background:var(--card);border:1px dashed var(--pk);border-radius:10px;padding:8px;margin:8px 0}
+.fab{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:6;box-shadow:0 6px 18px #0004}
+footer{text-align:center;color:var(--mute);font-size:12px;padding:0 16px 90px}
+</style></head><body>
+<header><div class="logo" id="logo">Moça Bonita</div><a class="btn ghost" id="hig" target="_blank" rel="noopener">Instagram</a><a class="btn wa" id="hwa" target="_blank" rel="noopener">WhatsApp</a><button class="btn" id="hcart">🛍 <span id="cn">0</span></button></header>
+<section class="hero"><img id="hl" alt="Moça Bonita" hidden><h1>Moda Íntima</h1><em>Sua essência, sua beleza</em><p>Conjuntos, calcinhas, sutiãs, plus size e muito mais. Escolha as peças, monte o pedido e finalize por Pix, cartão ou direto no WhatsApp.</p></section>
+<div class="tools"><input type="search" id="q" placeholder="Buscar por nome ou referência…"><div class="chips" id="chips"></div></div>
+<main class="grid" id="grid"></main>
+<footer><a href="https://www.instagram.com/use__mocabonitaa" target="_blank" rel="noopener" style="color:var(--pk2)">Siga a gente no Instagram</a><br>Cores e tamanhos disponíveis são confirmados pelas nossas vendedoras no WhatsApp.</footer>
+<button class="btn wa fab" id="fab">Falar no WhatsApp</button>
+<div class="ov" id="ov"><div class="sheet" id="sh"></div></div>
+<script>
+/* ===== CONFIGURAÇÃO — edite aqui ===== */
+const CONFIG={
+ whatsapp:"554196000345", // 55 + DDD + número (confirme se faltam dígitos)
+ instagram:"https://www.instagram.com/use__mocabonitaa", logo:"logo.png",
+ pixKey:"", pixName:"MOCA BONITA", pixCity:"BRASIL",  // chave Pix (CPF/CNPJ/e-mail/telefone/aleatória)
+ payUrl:""               // link de pagamento (cartão) criado no Mercado Pago, PagBank, InfinitePay etc.
+};
+/* Preços: preencha o campo "p" de cada produto abaixo (ex.: "p":49.9). Sem preço = "Consulte o valor". */
+const DATA=[
+{
+"id": 3,
+"n": "Conjunto Básico Microfibra",
+"r": "580",
+"c": "Básicos",
+"d": "Conjunto Com bojo, aro e fecho duplo Material: Microfibra Calcinha de microfibra - Fio Duplo Disponível: Tamanho P ao GG Sutiã Cortinão",
+"p": null,
+"i": "img/3.jpg",
+"x": [
+"img/3_2.jpg"
+]
+},
+{
+"id": 4,
+"n": "Sutiã Cortinão",
+"r": "881",
+"c": "Básicos",
+"d": "Sutiã Avulso Com bojo triangular casquinha, sem bolha, sem aro, com fecho triplo Material: Microfibra Fecho triplo Disponível: Tamanho P ao GG Peça avulsa - Não acompanha calcinha. Conjunto Mônica",
+"p": null,
+"i": "img/4.jpg",
+"x": [
+"img/4_2.jpg",
+"img/4_3.jpg"
+]
+},
+{
+"id": 5,
+"n": "Conjunto Mônica",
+"r": "658",
+"c": "Básicos",
+"d": "Conjunto Com bojo e aro Material: Microfibra Disponível: Tamanho M ao GG Calcinha de microfibra tradicional Alças confort - com preenchimento",
+"p": null,
+"i": "img/5.jpg",
+"x": [
+"img/5_2.jpg",
+"img/5_3.jpg"
+]
+},
+{
+"id": 6,
+"n": "Tomara que Caia",
+"r": "599",
+"c": "Básicos",
+"d": "Sutiã Avulso Com bojo e com aro, fecho triplo Material: Microfibra Acompanha alça removível. Disponível: Tamanho P ao GG Peça Avulsa - Não acompanha calcinha Sutiã Liza",
+"p": null,
+"i": "img/6.jpg",
+"x": [
+"img/6_2.jpg"
+]
+},
+{
+"id": 7,
+"n": "Sutiã Liza",
+"r": "963",
+"c": "Básicos",
+"d": "Sutiã Avulso Sem bojo, sem aro, fecho triplo Material: Microfibra Busto com microfibra dupla Disponível; Tamanhos P ao GG Peça avulsa - não acompanha calcinha Conjunto Nadador",
+"p": null,
+"i": "img/7.jpg",
+"x": [
+"img/7_2.jpg",
+"img/7_3.jpg"
+]
+},
+{
+"id": 8,
+"n": "Conjunto Nadador",
+"r": "652",
+"c": "Básicos",
+"d": "Conjunto Com bojo e aro Abertura frontal Material: Microfibra Disponível: Tamanho P ao GG Calcinha de microfibra modelo borboleta ou tradicional",
+"p": null,
+"i": "img/8.jpg",
+"x": [
+"img/8_2.jpg",
+"img/8_3.jpg"
+]
+},
+{
+"id": 9,
+"n": "Top Happy",
+"r": "1134",
+"c": "Básicos",
+"d": "Sutiã avulso Sem bojo e sem aro Top confeccionado totalmente em microfibra dupla, com modelagem anatômica e decote em V nas costas Material: Microfibra de poliamida com elastano Disponível: Tamanho P ao GG Sutiã Reforçado",
+"p": null,
+"i": "img/9.jpg",
+"x": [
+"img/9_2.jpg"
+]
+},
+{
+"id": 10,
+"n": "Sutiã Reforçado",
+"r": "754",
+"c": "Básicos",
+"d": "sutiã avulso Sutiã com bojo e aro, confeccionado em microfibra, com laterais duplas e mais altas, base reforçada e fecho triplo. Material: Microfibra de poliamida com elastano Disponível: Tamanho M ao 52",
+"p": null,
+"i": "img/10.jpg",
+"x": [
+"img/10_2.jpg",
+"img/10_3.jpg"
+]
+},
+{
+"id": 11,
+"n": "Conjunto Simples",
+"r": "168",
+"c": "Básicos",
+"d": "Conjunto Sem bojo e sem aro Disponível: Tamanho M ao GG Calcinha de microfibra cós alto Tamanho 48 - · Ref. 168X sutiã Sustentare",
+"p": null,
+"i": "img/11.jpg",
+"x": []
+},
+{
+"id": 12,
+"n": "Sutiã Sustentare",
+"r": "736",
+"c": "Básicos",
+"d": "Sutiã Avulso Possui bojo SOFT, sem bolha e com aro Material: Microfibra Disponível: Tamanho M ao 48 Peça avulsa - não acompanha calcinha Sutiã M.F Conforto",
+"p": null,
+"i": "img/12.jpg",
+"x": [
+"img/12_2.jpg",
+"img/12_3.jpg"
+]
+},
+{
+"id": 13,
+"n": "Sutiã M.F Conforto",
+"r": "767",
+"c": "Básicos",
+"d": "Sutiã Avulso Com bojo e aro Bojo conforto maleável Disponível: Tamanho P ao GG Peça avulsa - não acompanha calcinha",
+"p": null,
+"i": "img/13.jpg",
+"x": [
+"img/13_2.jpg",
+"img/13_3.jpg"
+]
+},
+{
+"id": 14,
+"n": "Sutiã Soft",
+"r": "674",
+"c": "Básicos",
+"d": "Sutiã Avulso Sutiã em microfibra dupla, sem bojo e com aro. Possui alças reguláveis e fecho triplo. Material: Microfibra de poliamida com elastano Disponível: Tamanho P ao 52 Sutiã Magic UP Com Aro",
+"p": null,
+"i": "img/14.jpg",
+"x": []
+},
+{
+"id": 15,
+"n": "Sutiã Magic UP Com Aro",
+"r": "759",
+"c": "Básicos",
+"d": "Sutiã Avulso Com bojo 3D push up - com aro Material: Microfibra Disponível: Tamanho P ao G Peça Avulsa - Não acompanha calcinha Fecho triplo",
+"p": null,
+"i": "img/15.jpg",
+"x": [
+"img/15_2.jpg"
+]
+},
+{
+"id": 16,
+"n": "Conjunto Top Sem Bojo",
+"r": "704",
+"c": "Menina Moça",
+"d": "Conjunto Top sem bojo Material: Material: Cotton 90% algodão 10% elastano Acompanha calcinha de algodão Disponível: Tamanho P ao XG Conjunto Com Bojo",
+"p": null,
+"i": "img/16.jpg",
+"x": []
+},
+{
+"id": 17,
+"n": "Conjunto Com Bojo",
+"r": "713",
+"c": "Menina Moça",
+"d": "Conjunto Sutiã com bojo casquinha, sem aro Material: Cotton 90% algodão 10% elastano Acompanha calcinha de algodão Disponível: Tamanho P ao G Calcinha Menina Microfibra / Cotton",
+"p": null,
+"i": "img/17.jpg",
+"x": [
+"img/17_2.jpg"
+]
+},
+{
+"id": 18,
+"n": "Calcinha Menina Microfibra / Cotton",
+"r": "703",
+"c": "Menina Moça",
+"d": "Unidade Material: microfibra / cotton Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/18.jpg",
+"x": [
+"img/18_2.jpg",
+"img/18_3.jpg"
+]
+},
+{
+"id": 19,
+"n": "Conjunto Marília",
+"r": "600",
+"c": "Renda & Microfibra",
+"d": "Conjunto Com bojo e aro Material: Renda Disponível: Tamanho P ao GG Calcinha fio de renda Conjunto DUO",
+"p": null,
+"i": "img/19.jpg",
+"x": [
+"img/19_2.jpg"
+]
+},
+{
+"id": 20,
+"n": "Conjunto DUO",
+"r": "723",
+"c": "Renda & Microfibra",
+"d": "Conjunto Com bojo e aro Material: Renda Disponível: Tamanho P ao XG Calcinha fio de renda com cós largo Tamanho XG - · Ref. 723X Conjunto KISS",
+"p": null,
+"i": "img/20.jpg",
+"x": [
+"img/20_2.jpg",
+"img/20_3.jpg"
+]
+},
+{
+"id": 21,
+"n": "Conjunto KISS",
+"r": "1070",
+"c": "Renda & Microfibra",
+"d": "Conjunto Com bojo e aro Material: Renda e microfibra Disponível: Tamanho P ao GG Calcinha fio duplo",
+"p": null,
+"i": "img/21.jpg",
+"x": [
+"img/21_2.jpg",
+"img/21_3.jpg"
+]
+},
+{
+"id": 22,
+"n": "Conjunto Diamante",
+"r": "1010",
+"c": "Renda & Microfibra",
+"d": "Conjunto Com bojo e aro Material: Renda Disponível: Tamanho P ao GG Alça de Brilhantes - STRASS Calcinha fio de renda com cós largo Conjunto Linda",
+"p": null,
+"i": "img/22.jpg",
+"x": []
+},
+{
+"id": 23,
+"n": "Conjunto Linda",
+"r": "738",
+"c": "Renda & Microfibra",
+"d": "Conjunto Com bojo e aro Material: Microfibra e Renda Disponível: Tamanho P ao GG Calcinha fio duplo de microfibra e laterais de renda. Conjunto Charme",
+"p": null,
+"i": "img/23.jpg",
+"x": [
+"img/23_2.jpg",
+"img/23_3.jpg"
+]
+},
+{
+"id": 24,
+"n": "Conjunto Charme",
+"r": "926",
+"c": "Renda & Microfibra",
+"d": "Conjunto Com bojo e aro Material: Renda e microfibra Disponível: Tamanho P ao XG Calcinha de renda e microfibra com drapeado.",
+"p": null,
+"i": "img/24.jpg",
+"x": [
+"img/24_2.jpg",
+"img/24_3.jpg"
+]
+},
+{
+"id": 25,
+"n": "Conjunto Porto Seguro",
+"r": "1167",
+"c": "Renda & Microfibra",
+"d": "Conjunto Descrição: Conjunto sem bojo com aro, detalhe em laço, Alças reguláveis, fecho triplo e calcinha de regulagem com forro 100% algodão. Material: renda e tule poa. Disponível: Tamanho P ao GG Conjunto Aventura Íntima",
+"p": null,
+"i": "img/25.jpg",
+"x": [
+"img/25_2.jpg",
+"img/25_3.jpg"
+]
+},
+{
+"id": 26,
+"n": "Conjunto Aventura Íntima",
+"r": "1149",
+"c": "Renda & Microfibra",
+"d": "Conjunto Descrição: Conjunto em renda com sutiã sem bojo e aro. A renda se estende até os ombros. Possui alças reguláveis, fecho triplo e calcinha fio toda em renda. Material: Renda de poliamida com elastano Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/26.jpg",
+"x": [
+"img/26_2.jpg",
+"img/26_3.jpg"
+]
+},
+{
+"id": 27,
+"n": "Conjunto Tina",
+"r": "1085",
+"c": "Renda & Microfibra",
+"d": "Conjunto Sem bojo sem aro, fecho fixo sem colchete - tipo top cropped Material: renda de poliamida com elastano e microfibra no forro Alças de rolotê fininhas Calcinha fio de renda com regulagem - forro 100% algodão Disponível: Tamanho P ao GG Conjunto Delicate",
+"p": null,
+"i": "img/27.jpg",
+"x": [
+"img/27_2.jpg"
+]
+},
+{
+"id": 28,
+"n": "Conjunto Delicate",
+"r": "1078",
+"c": "Renda & Microfibra",
+"d": "Conjunto Sem bojo com aro, fecho triplo Material: Microfibra poliamida Calcinha fio duplo cós alto Disponível: Tamanho P ao GG Conjunto Liz",
+"p": null,
+"i": "img/28.jpg",
+"x": [
+"img/28_2.jpg",
+"img/28_3.jpg"
+]
+},
+{
+"id": 29,
+"n": "Conjunto Liz",
+"r": "1092",
+"c": "Renda & Microfibra",
+"d": "Conjunto Sem bojo com aro, fecho triplo Material: renda de poliamida com elastano Calcinha fio de renda cós alto Disponível: Tamanho P ao XG Tamanho XG - · Ref. 1092X",
+"p": null,
+"i": "img/29.jpg",
+"x": [
+"img/29_2.jpg",
+"img/29_3.jpg"
+]
+},
+{
+"id": 30,
+"n": "Conjunto Céu Afora",
+"r": "1073",
+"c": "Renda & Microfibra",
+"d": "Conjunto Conjunto em microfibra com detalhes em renda, sutiã com bojo, aro e base de elástico. Acompanha calcinha com regulagem nas laterais, Material: Microfibra e renda Disponível: Tamanho P ao GG Conjunto Liberty",
+"p": null,
+"i": "img/30.jpg",
+"x": [
+"img/30_2.jpg"
+]
+},
+{
+"id": 31,
+"n": "Conjunto Liberty",
+"r": "1020",
+"c": "Renda & Microfibra",
+"d": "Conjunto Com bojo SOFT casquinha triangular, sem aro, removível Material: Renda Calcinha fio de renda com regulagem curta Disponível: Tamanho P ao GG Conjunto Cortinão",
+"p": null,
+"i": "img/31.jpg",
+"x": [
+"img/31_2.jpg",
+"img/31_3.jpg"
+]
+},
+{
+"id": 32,
+"n": "Conjunto Cortinão",
+"r": "809",
+"c": "Renda & Microfibra",
+"d": "Conjunto Com bojo casquinha triangular sem bolha, sem aro, fecho triplo Material: Renda Calcinha fio de renda Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/32.jpg",
+"x": [
+"img/32_2.jpg",
+"img/32_3.jpg"
+]
+},
+{
+"id": 33,
+"n": "Conjunto Love",
+"r": "1002",
+"c": "Renda & Microfibra",
+"d": "Conjunto Sem bojo com aro, fecho triplo Material: Renda e microfibra Busto de microfibra dupla Calcinha fio duplo Disponível: Tamanho P ao GG Conjunto Alegria",
+"p": null,
+"i": "img/33.jpg",
+"x": [
+"img/33_2.jpg"
+]
+},
+{
+"id": 34,
+"n": "Conjunto Alegria",
+"r": "1001",
+"c": "Renda & Microfibra",
+"d": "Conjunto Sem bojo, com aro Material: Renda e microfibra (na parte de trás) Busto com forro de algodão Calcinha fio duplo de microfibra Disponível: Tamanho P ao 48 Conjunto Debora",
+"p": null,
+"i": "img/34.jpg",
+"x": [
+"img/34_2.jpg",
+"img/34_3.jpg"
+]
+},
+{
+"id": 35,
+"n": "Conjunto Débora",
+"r": "1109",
+"c": "Renda & Microfibra",
+"d": "Conjunto Bojo e aro Material: Microfibra e renda de poliamida com elastano. Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/35.jpg",
+"x": [
+"img/35_2.jpg",
+"img/35_3.jpg"
+]
+},
+{
+"id": 36,
+"n": "Conjunto Top de Renda",
+"r": "887",
+"c": "Renda & Microfibra",
+"d": "Conjunto Sem bojo e sem aro Material: Renda Calcinha fio de renda Busto com forro de microfibra Disponível: Tamanho P ao GG Conjunto Transparência",
+"p": null,
+"i": "img/36.jpg",
+"x": [
+"img/36_2.jpg"
+]
+},
+{
+"id": 37,
+"n": "Conjunto Transparência",
+"r": "754",
+"c": "Renda & Microfibra",
+"d": "Conjunto Sem bojo e sem aro Material: Tule e Renda Calcinha fio de renda Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/37.jpg",
+"x": [
+"img/37_2.jpg",
+"img/37_3.jpg"
+]
+},
+{
+"id": 38,
+"n": "Conjunto Top de Renda FAIXA",
+"r": "818",
+"c": "Renda & Microfibra",
+"d": "Conjunto Bojo casquinha e sem aro Material: Renda Calcinha fio de renda Alças de regulagem removíveis Disponível: Tamanho P ao GG Conjunto Jasmine",
+"p": null,
+"i": "img/38.jpg",
+"x": [
+"img/38_2.jpg"
+]
+},
+{
+"id": 39,
+"n": "Conjunto Jasmine",
+"r": "1059",
+"c": "Renda & Microfibra",
+"d": "Conjunto Com bojo e aro Material: Microfibra Sutiã com base de microfibra e aplicação de renda Calcinha borboleta fio duplo com aplicação de renda Disponível: Tamanho P ao GG Tamanho XG ao 52 - Sutiã avulso- · Ref. 1059XS - Tropical Conjunto Harmonia Conjunto",
+"p": null,
+"i": "img/39.jpg",
+"x": [
+"img/39_2.jpg",
+"img/39_3.jpg"
+]
+},
+{
+"id": 40,
+"n": "Conjunto Harmonia Tropical",
+"r": "1135",
+"c": "Renda & Microfibra",
+"d": "Conjunto sem bojo e sem aro, com costuras estratégica, fecho triplo e alças reguláveis, acompanha a calcinha alta tradicional Material: microfibra com detalhes em renda Disponível: Tamanho P ao GG Tamanho XG - · Ref. 1135X",
+"p": null,
+"i": "img/40.jpg",
+"x": [
+"img/40_2.jpg",
+"img/40_3.jpg"
+]
+},
+{
+"id": 41,
+"n": "Conjunto Feline",
+"r": "547",
+"c": "Renda & Microfibra",
+"d": "Conjunto Bojo e aro Material: Renda e Microfibra Calcinha fio duplo de microfibra, cós alto de renda Disponível: Tamanho P ao GG Conjunto Aurora",
+"p": null,
+"i": "img/41.jpg",
+"x": [
+"img/41_2.jpg",
+"img/41_3.jpg"
+]
+},
+{
+"id": 42,
+"n": "Conjunto Aurora",
+"r": "1128",
+"c": "Renda & Microfibra",
+"d": "Conjunto Com bojo e aro este sutiã possui bojo, base confort, alças reguláveis e fecho triplo. Acompanha calcinha fio duplo, Material: Microfibra e renda Disponível: Tamanho P ao GG Consulte as cores disponíveis com uma de",
+"p": null,
+"i": "img/42.jpg",
+"x": [
+"img/42_2.jpg",
+"img/42_3.jpg"
+]
+},
+{
+"id": 43,
+"n": "Conjunto Sussurros de Poesia",
+"r": "1145",
+"c": "Renda & Microfibra",
+"d": "Conjunto Descrição: Top sem bojo e sem aro, detalhe em transparência de tule, alças em rolotê com regulagem e sem fecho. Calcinha fio dental com forro 100% algodão. Material: renda e tule poá Tamanhos: P ao GG Conjunto DOCE",
+"p": null,
+"i": "img/43.jpg",
+"x": [
+"img/43_2.jpg"
+]
+},
+{
+"id": 44,
+"n": "Conjunto Doce Versos",
+"r": "1148",
+"c": "Renda & Microfibra",
+"d": "Conjunto Descrição: sutiã de bojo e aro, alças reguláveis e fecho triplo. Detalhes delicados em laço alongado e pedraria. A calcinha fio dental com detalhe em pedraria Material: renda e tule poá Tamanhos: P ao GG",
+"p": null,
+"i": "img/44.jpg",
+"x": [
+"img/44_2.jpg",
+"img/44_3.jpg"
+]
+},
+{
+"id": 45,
+"n": "Conjunto Acordes de Delicadeza",
+"r": "1147",
+"c": "Renda & Microfibra",
+"d": "Conjunto Descrição: Sutiã sem bojo, com aro de sustentação e detalhes de pingente no decote e nas alças. Fecho triplo e alças reguláveis. Acompanha calcinha fio.. Material: renda e tule poá Tamanhos: P ao GG Cropped SONHOS EM",
+"p": null,
+"i": "img/45.jpg",
+"x": [
+"img/45_2.jpg"
+]
+},
+{
+"id": 46,
+"n": "Cropped Sonhos em Renda",
+"r": "1146",
+"c": "Renda & Microfibra",
+"d": "Conjunto Descrição: Cropped estruturado com bojo, aro e alças ajustáveis, detalhes em renda com babado, laço alongado e pingente. Zíper nas costas. Calcinha fio com laterais reguláveis. Material: renda e tule poá Tamanhos: P ao GG",
+"p": null,
+"i": "img/46.jpg",
+"x": [
+"img/46_2.jpg",
+"img/46_3.jpg"
+]
+},
+{
+"id": 47,
+"n": "Chambre Tule Poá",
+"r": "1144",
+"c": "Renda & Microfibra",
+"d": "Descrição: Mangas amplas de tule com detalhes em renda e abertura frontal. Material: renda e tule poá Tamanhos: P e G Camisola ON",
+"p": null,
+"i": "img/47.jpg",
+"x": [
+"img/47_2.jpg",
+"img/47_3.jpg"
+]
+},
+{
+"id": 48,
+"n": "Camisola On Fire",
+"r": "1117",
+"c": "Renda & Microfibra",
+"d": "Acompanha calcinha. Descrição: sem bojo e sem aro com acessório de coração e calcinha com as laterais finas Material: renda e tule poá Tamanhos: P ao GG",
+"p": null,
+"i": "img/48.jpg",
+"x": [
+"img/48_2.jpg",
+"img/48_3.jpg"
+]
+},
+{
+"id": 108,
+"n": "Body",
+"r": "1142",
+"c": "Renda & Microfibra",
+"d": "Estruturado com bojo, decote V, renda estratégica. Ajuste nas costas e alças, modelo fio com forro 100% algodão. Material: renda e tule poá. Tamanhos: P ao GG",
+"p": null,
+"i": "img/108.jpg",
+"x": [
+"img/108_2.jpg"
+]
+},
+{
+"id": 49,
+"n": "Sutiã DUO",
+"r": "723XS",
+"c": "Plus Size",
+"d": "Sutiã Avulso Possui bojo sem bolha com aro Material: Renda Disponível: Tamanho 50 ao 54 Peça avulsa - não acompanha calcinha Sutiã Linda",
+"p": null,
+"i": "img/49.jpg",
+"x": [
+"img/49_2.jpg"
+]
+},
+{
+"id": 50,
+"n": "Sutiã Linda",
+"r": "738XS",
+"c": "Plus Size",
+"d": "Sutiã Avulso Possui bojo sem bolha com aro Material: Renda e microfibra Base de microfibra Disponível: Tamanho 48 ao 54 Peça avulsa - não acompanha calcinha Sutiã M.F Conforto Plus",
+"p": null,
+"i": "img/50.jpg",
+"x": [
+"img/50_2.jpg",
+"img/50_3.jpg"
+]
+},
+{
+"id": 51,
+"n": "Sutiã M.F Conforto Plus",
+"r": "767X",
+"c": "Plus Size",
+"d": "Sutiã Avulso Possui bojo SOFT, sem bolha e com aro Material: Microfibra Forro da base: algodão Disponível: Tamanho 48 ao 52 Peça avulsa - não acompanha calcinha",
+"p": null,
+"i": "img/51.jpg",
+"x": [
+"img/51_2.jpg",
+"img/51_3.jpg"
+]
+},
+{
+"id": 52,
+"n": "Sutiã Sustentare",
+"r": "736",
+"c": "Plus Size",
+"d": "Sutiã Avulso Possui bojo SOFT, sem bolha e com aro Material: Microfibra Disponível: Tamanho M ao 48 Peça avulsa - não acompanha calcinha Sutiã Regata",
+"p": null,
+"i": "img/52.jpg",
+"x": []
+},
+{
+"id": 53,
+"n": "Sutiã Regata",
+"r": "929",
+"c": "Plus Size",
+"d": "Sutiã Avulso Material: Microfibra Ampla modelagem nas costas Possui fecho triplo Alças com regulagem Disponível: Tamanho G ao 54 Não acompanha calcinha",
+"p": null,
+"i": "img/53.jpg",
+"x": [
+"img/53_2.jpg",
+"img/53_3.jpg"
+]
+},
+{
+"id": 54,
+"n": "Sutiã Reforçado Nadador Plus",
+"r": "796",
+"c": "Plus Size",
+"d": "Sutiã Avulso Com bojo e aro Material: Microfibra Abertura com zíper frontal Disponível: Tamanho 48 ao 54 Peça avulsa - não acompanha calcinha Conjunto Harmonia",
+"p": null,
+"i": "img/54.jpg",
+"x": [
+"img/54_2.jpg"
+]
+},
+{
+"id": 55,
+"n": "Conjunto Harmonia",
+"r": "1135x",
+"c": "Plus Size",
+"d": "Conjunto sem bojo e sem aro, com costuras estratégica, fecho triplo e alças reguláveis, acompanha a calcinha alta tradicional Material: microfibra com detalhes em renda Disponível: Tamanho 48 · Ref. 1135xs - Sutiã Avulso - tamanho: 50 ao 54 vendedoras através do WhatsApp Sutiã Liza Plus",
+"p": null,
+"i": "img/55.jpg",
+"x": [
+"img/55_2.jpg",
+"img/55_3.jpg"
+]
+},
+{
+"id": 56,
+"n": "Sutiã Liza Plus",
+"r": "963X",
+"c": "Plus Size",
+"d": "Sutiã Avulso Sem bojo, sem aro, fecho triplo Material: Microfibra Busto de microfibra dupla Disponível; Tamanhos 48 ao 54",
+"p": null,
+"i": "img/56.jpg",
+"x": [
+"img/56_2.jpg",
+"img/56_3.jpg"
+]
+},
+{
+"id": 57,
+"n": "Sutiã Mônica Plus",
+"r": "6580",
+"c": "Plus Size",
+"d": "Sutiã Avulso Com bojo sem bolha e aro Material: Microfibra Alça confort com preenchimento Disponível: Tamanho 48 ao 54 Peça avulsa - não acompanha calcinha Sutiã M.F Reforçado",
+"p": null,
+"i": "img/57.jpg",
+"x": [
+"img/57_2.jpg"
+]
+},
+{
+"id": 58,
+"n": "Sutiã M.F Reforçado",
+"r": "531XS",
+"c": "Plus Size",
+"d": "Sutiã Avulso Com bojo e aro Material: Microfibra Disponível: Tamanho 48 ao 52 Peça avulsa - não acompanha calcinha Conjunto Delicate - 1078X PLUS SIZE - tam 48",
+"p": null,
+"i": "img/58.jpg",
+"x": [
+"img/58_2.jpg",
+"img/58_3.jpg"
+]
+},
+{
+"id": 59,
+"n": "Conjunto Delicate (Plus Size)",
+"r": "1078X",
+"c": "Plus Size",
+"d": "Conjunto Sem bojo com aro, fecho triplo Material: Microfibra poliamida Calcinha fio duplo cós alto Disponível: 48 PLUS SIZE Sutiã Avulso Delicate · Ref. 1078XS - Sutiã avulso Disponível: 50",
+"p": null,
+"i": "img/59.jpg",
+"x": [
+"img/59_2.jpg",
+"img/59_3.jpg"
+]
+},
+{
+"id": 60,
+"n": "Sutiã Reforçado",
+"r": "754",
+"c": "Plus Size",
+"d": "sutiã avulso Sutiã com bojo e aro, confeccionado em microfibra, com laterais duplas e mais altas, base reforçada e fecho triplo. Material: Microfibra de poliamida com elastano Disponível: Tamanho 48 ao 52 Sutiã Ana",
+"p": null,
+"i": "img/60.jpg",
+"x": []
+},
+{
+"id": 61,
+"n": "Sutiã Ana",
+"r": "637",
+"c": "Plus Size",
+"d": "Sutiã Avulso Material: Microfibra e renda Ampla modelagem nas costas Possui fecho triplo Alças com regulagem Disponível: Tamanho M ao 54 Não acompanha calcinha",
+"p": null,
+"i": "img/61.jpg",
+"x": [
+"img/61_2.jpg",
+"img/61_3.jpg"
+]
+},
+{
+"id": 62,
+"n": "Calcinha Cós Alto + Renda",
+"r": "462",
+"c": "Calcinhas",
+"d": "/463 - Unidade - Peça avulsa. Modelo 462 fio duplo e modelo 463 tradicional. Tecido: microfibra e renda. Laterais largas, tradicional no bumbum ou fio duplo. Forro 100% algodão. Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/62.jpg",
+"x": [
+"img/62_2.jpg"
+]
+},
+{
+"id": 63,
+"n": "Calcinha Tradicional",
+"r": "002",
+"c": "Calcinhas",
+"d": "Unidade. Modelo 143. Tecido: microfibra. Laterais largas, tradicional no bumbum, mais larguinha. Forro 100% algodão. Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/63.jpg",
+"x": [
+"img/63_2.jpg",
+"img/63_3.jpg"
+]
+},
+{
+"id": 64,
+"n": "Calcinha Fio Duplo",
+"r": "003",
+"c": "Calcinhas",
+"d": "Unidade Modelo - 147 Tecido: Microfibra Forro 100% algodão Fio duplo Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/64.jpg",
+"x": [
+"img/64_2.jpg",
+"img/64_3.jpg"
+]
+},
+{
+"id": 65,
+"n": "Calcinha Fio Duplo Borboleta",
+"r": "707",
+"c": "Calcinhas",
+"d": "Unidade Modelo - 301 Tecido: Microfibra Laterais borboleta (sem costura) Forro 100% algodão Fio duplo Disponível: Tamanho P ao GG Calcinha Fio Biquíni",
+"p": null,
+"i": "img/65.jpg",
+"x": [
+"img/65_2.jpg"
+]
+},
+{
+"id": 66,
+"n": "Calcinha Fio Biquíni",
+"r": "003",
+"c": "Calcinhas",
+"d": "Unidade Modelo - 224 Tecido: Microfibra Elástico embutido nas laterais Forro 100% algodão Fio duplo Disponível: Tamanho P ao GG Calcinha Regulagem Microfibra",
+"p": null,
+"i": "img/66.jpg",
+"x": [
+"img/66_2.jpg",
+"img/66_3.jpg"
+]
+},
+{
+"id": 67,
+"n": "Calcinha Regulagem Microfibra",
+"r": "438",
+"c": "Calcinhas",
+"d": "Unidade Tecido: Microfibra Regulagem nas laterais Forro 100% algodão Disponível: Tamanho P ao XG",
+"p": null,
+"i": "img/67.jpg",
+"x": [
+"img/67_2.jpg",
+"img/67_3.jpg"
+]
+},
+{
+"id": 68,
+"n": "Calcinha Fio de Renda",
+"r": "002",
+"c": "Calcinhas",
+"d": "Unidade Tecido: Renda Forro 100% algodão Laterais finas / fio de renda no bumbum Modelo - 173 Disponível: Tamanho P ao GG Calcinha Fio com Regulagem",
+"p": null,
+"i": "img/68.jpg",
+"x": [
+"img/68_2.jpg"
+]
+},
+{
+"id": 69,
+"n": "Calcinha Fio com Regulagem",
+"r": "003",
+"c": "Calcinhas",
+"d": "Unidade Renda fio com regulagem Pingente atrás Modelo - 291 Disponível: Tamanho P ao GG Calcinha Cós Alto Delicate",
+"p": null,
+"i": "img/69.jpg",
+"x": [
+"img/69_2.jpg",
+"img/69_3.jpg"
+]
+},
+{
+"id": 70,
+"n": "Calcinha Cós Alto Delicate",
+"r": "500",
+"c": "Calcinhas",
+"d": "Unidade Modelo - 500 Tecido: microfibra Fio duplo de microfibra forro 100% algodão Disponível: Tamanho P ao 48 PLUS SIZE · Ref. 500x - Unidade Disponível: Tamanho 48.",
+"p": null,
+"i": "img/70.jpg",
+"x": [
+"img/70_2.jpg",
+"img/70_3.jpg"
+]
+},
+{
+"id": 71,
+"n": "Calcinha Cós Alto Delicate Tradicional",
+"r": "507",
+"c": "Calcinhas",
+"d": "Unidade Modelo - 507 Tecido: microfibra e renda Tradicional de microfibra forro 100% algodão Disponível: Tamanho P ao GG · Ref. 507x - Unidade Disponível: Tamanho 48. Calcinha Cós de Renda Pingente",
+"p": null,
+"i": "img/71.jpg",
+"x": []
+},
+{
+"id": 72,
+"n": "Calcinha Cós de Renda Pingente",
+"r": "003",
+"c": "Calcinhas",
+"d": "Unidade Modelo - 332 Disponível: Tamanho P ao GG Calcinha Microfibra Cós de Renda",
+"p": null,
+"i": "img/72.jpg",
+"x": [
+"img/72_2.jpg",
+"img/72_3.jpg"
+]
+},
+{
+"id": 73,
+"n": "Calcinha Microfibra Cós de Renda",
+"r": "008",
+"c": "Calcinhas",
+"d": "Unidade Modelo 271 - Fio Duplo Modelo 272 - Tradicional Disponível: Tamanho P ao GG · Ref. 024 - Unidade Modelo 271 - Fio Duplo Modelo 272 - Tradicional Disponível: Tamanho 48 E 50",
+"p": null,
+"i": "img/73.jpg",
+"x": [
+"img/73_2.jpg",
+"img/73_3.jpg"
+]
+},
+{
+"id": 74,
+"n": "Calcinha Cós Alto Tradicional",
+"r": "707",
+"c": "Calcinhas",
+"d": "Unidade Modelo - 265 Disponível: Tamanho P ao GG · Ref. 110 - Unidade Modelo - 265 Disponível: Tamanho 48 ao 50 Calcinha Cós Alto Fio Duplo",
+"p": null,
+"i": "img/74.jpg",
+"x": [
+"img/74_2.jpg"
+]
+},
+{
+"id": 75,
+"n": "Calcinha Cós Alto Fio Duplo",
+"r": "707",
+"c": "Calcinhas",
+"d": "Unidade Modelo - 249 Tecido: Microfibra Disponível: Tamanho P ao GG · Ref. 110 - Unidade Modelo - 249 Disponível: Tamanho 48 ao 50",
+"p": null,
+"i": "img/75.jpg",
+"x": [
+"img/75_2.jpg",
+"img/75_3.jpg"
+]
+},
+{
+"id": 76,
+"n": "Calcinha Cós Alto de Renda",
+"r": "707",
+"c": "Calcinhas",
+"d": "Unidade Tecido: Renda Laterais largas / cós alto / fio no bumbum Forro 100% algodão Modelo - 262 Disponível: P ao 48 · Ref. 110 - Unidade Modelo - 262 Disponível: Tamanho 48 Calcinha Caleçon",
+"p": null,
+"i": "img/76.jpg",
+"x": [
+"img/76_2.jpg"
+]
+},
+{
+"id": 77,
+"n": "Calcinha Caleçon",
+"r": "003",
+"c": "Calcinhas",
+"d": "Unidade Tecido: Renda Forro 100% algodão Modelo - 136 Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/77.jpg",
+"x": [
+"img/77_2.jpg",
+"img/77_3.jpg"
+]
+},
+{
+"id": 78,
+"n": "Calcinha Cotton Cós Alto Tradicional",
+"r": "05",
+"c": "Cotton",
+"d": "Unidade Tecido: cotton (90% algodão 10%elastano) Modelo 265 Tradicional Disponível: Tamanho P ao GG · Ref. 05X - Unidade Disponível: Tamanho 48 Calcinha Cós alto",
+"p": null,
+"i": "img/78.jpg",
+"x": []
+},
+{
+"id": 79,
+"n": "Calcinha Cotton Cós Alto Fio Duplo",
+"r": "05",
+"c": "Cotton",
+"d": "Unidade Tecido: cotton (90% algodão 10%elastano) Modelo 249 Fio Duplo Disponível: Tamanho P ao GG · Ref. 05X - Unidade Disponível: Tamanho 48 Calcinha Fio biquíni Tecido: cotton (90% algodão 10%elastano) Disponível: Tamanho P ao G",
+"p": null,
+"i": "img/79.jpg",
+"x": [
+"img/79_2.jpg",
+"img/79_3.jpg"
+]
+},
+{
+"id": 80,
+"n": "Calcinha Cotton Básica Tradicional",
+"r": "05",
+"c": "Cotton",
+"d": "Unidade Tecido: cotton (90% algodão 10%elastano) Modelo 143 - Tradicional Disponível: Tamanho P ao GG Calcinha Básica",
+"p": null,
+"i": "img/80.jpg",
+"x": []
+},
+{
+"id": 81,
+"n": "Calcinha Cotton Básica Fio Duplo",
+"r": "05",
+"c": "Cotton",
+"d": "Unidade Tecido: cotton (90% algodão 10%elastano) Modelo 354 - Fio Duplo Disponível: Tamanho P ao GG Calcinha Fio Duplo",
+"p": null,
+"i": "img/81.jpg",
+"x": [
+"img/81_2.jpg",
+"img/81_3.jpg"
+]
+},
+{
+"id": 82,
+"n": "Calcinha Cotton Fio Duplo",
+"r": "05",
+"c": "Cotton",
+"d": "Unidade Modelo - 147 Tecido: cotton Forro 100% algodão Fio duplo Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/82.jpg",
+"x": [
+"img/82_2.jpg",
+"img/82_3.jpg"
+]
+},
+{
+"id": 83,
+"n": "Calcinha sem costura – Cós Alto Tradicional",
+"r": "20000",
+"c": "Sem Costura",
+"d": "Unidade Modelo Cós Alto Tradicional Disponível: Tamanho P/M ao G/GG Material: Microfibra Fio",
+"p": null,
+"i": "img/83.jpg",
+"x": []
+},
+{
+"id": 84,
+"n": "Calcinha sem costura – Fio Dental",
+"r": "20000",
+"c": "Sem Costura",
+"d": "Unidade Modelo - Fio Dental Disponível: Tamanho P/M ao G/GG Material: Microfibra Tradicional",
+"p": null,
+"i": "img/84.jpg",
+"x": [
+"img/84_2.jpg",
+"img/84_3.jpg"
+]
+},
+{
+"id": 85,
+"n": "Calcinha sem costura – Tradicional",
+"r": "20000",
+"c": "Sem Costura",
+"d": "Unidade Modelo - Tradicional Disponível: Tamanho P/M ao G/GG Material: Microfibra",
+"p": null,
+"i": "img/85.jpg",
+"x": [
+"img/85_2.jpg",
+"img/85_3.jpg"
+]
+},
+{
+"id": 86,
+"n": "Calcinha sem costura – fio com regulagem nas laterais",
+"r": "20000",
+"c": "Sem Costura",
+"d": "Unidade Modelo fio com regulagem nas laterais Disponível: Tamanho P ao GG Material: Microfibra Fio",
+"p": null,
+"i": "img/86.jpg",
+"x": []
+},
+{
+"id": 87,
+"n": "Calcinha sem costura – Fio Dental Canelado",
+"r": "20000",
+"c": "Sem Costura",
+"d": "Unidade Modelo - Fio Dental Canelado Disponível: Tamanho P ao GG Material: Microfibra Fio Renda",
+"p": null,
+"i": "img/87.jpg",
+"x": [
+"img/87_2.jpg",
+"img/87_3.jpg"
+]
+},
+{
+"id": 88,
+"n": "Calcinha sem costura – Fio com renda lateral",
+"r": "20000",
+"c": "Sem Costura",
+"d": "Unidade Modelo - Fio com renda lateral Disponível: Tamanho P ao GG Material: Microfibra",
+"p": null,
+"i": "img/88.jpg",
+"x": [
+"img/88_2.jpg",
+"img/88_3.jpg"
+]
+},
+{
+"id": 89,
+"n": "Calcinha sem costura – Tradicional com renda na lateral",
+"r": "20000",
+"c": "Sem Costura",
+"d": "Unidade Modelo - Tradicional com renda na lateral Disponível: Tamanho P ao GG Material: Microfibra Tradicional",
+"p": null,
+"i": "img/89.jpg",
+"x": [
+"img/89_2.jpg"
+]
+},
+{
+"id": 90,
+"n": "Calcinha sem costura – Tradicional com o cós de renda",
+"r": "20000",
+"c": "Sem Costura",
+"d": "Unidade Modelo - Tradicional com o cós de renda Disponível: Tamanho P ao GG Material: Microfibra Fio",
+"p": null,
+"i": "img/90.jpg",
+"x": [
+"img/90_2.jpg",
+"img/90_3.jpg"
+]
+},
+{
+"id": 91,
+"n": "Calcinha sem costura – Fio com o cós de renda",
+"r": "20000",
+"c": "Sem Costura",
+"d": "Unidade Modelo - Fio com o cós de renda Disponível: Tamanho P ao GG Material: Microfibra",
+"p": null,
+"i": "img/91.jpg",
+"x": [
+"img/91_2.jpg",
+"img/91_3.jpg"
+]
+},
+{
+"id": 92,
+"n": "Sutiã Reto sem costura",
+"r": "20002",
+"c": "Sem Costura",
+"d": "Sutiã avulso Tecido: Microfibra canelada alça e bojo removivel fecho duplo Disponível: P ao GG Sutiã Ondulado",
+"p": null,
+"i": "img/92.jpg",
+"x": [
+"img/92_2.jpg"
+]
+},
+{
+"id": 93,
+"n": "Sutiã Ondulado sem costura",
+"r": "20002",
+"c": "Sem Costura",
+"d": "Sutiã Avulso Tecido: Microfibra canelada modelagem anatômica, alças com regulagem, fecho triplo, bojo removível Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/93.jpg",
+"x": [
+"img/93_2.jpg",
+"img/93_3.jpg"
+]
+},
+{
+"id": 94,
+"n": "Calçola Tradicional",
+"r": "110",
+"c": "Calçolas & Segunda Pele",
+"d": "Unidade Modelo Calçola Disponível: M ao 48 vendedoras através do WhatsApp Alta Cavada",
+"p": null,
+"i": "img/94.jpg",
+"x": [
+"img/94_2.jpg"
+]
+},
+{
+"id": 95,
+"n": "Calçola Alta Cavada",
+"r": "002",
+"c": "Calçolas & Segunda Pele",
+"d": "Unidade Modelo - 114 Disponível: Tamanho M ao 48 Microfibra de poliamida com renda de poliamida, forro 100% algodão. PLUS SIZE · Ref. 110 - Unidade Modelo - 114 Disponível: Tamanho 48 vendedoras através do WhatsApp Tradicional com Renda",
+"p": null,
+"i": "img/95.jpg",
+"x": [
+"img/95_2.jpg",
+"img/95_3.jpg"
+]
+},
+{
+"id": 96,
+"n": "Calçola Tradicional com Renda",
+"r": "002",
+"c": "Calçolas & Segunda Pele",
+"d": "Unidade Modelo - 228 Disponível: Tamanho M ao 48 · Ref. 110 - Unidade Modelo - 228 Disponível: Tamanho 48",
+"p": null,
+"i": "img/96.jpg",
+"x": [
+"img/96_2.jpg",
+"img/96_3.jpg"
+]
+},
+{
+"id": 97,
+"n": "Regata Bruna",
+"r": "1122",
+"c": "Calçolas & Segunda Pele",
+"d": "Avulsa Tecido de Microfibra com elastano Disponível: Tamanho P ao 48 · Ref. 1122x- Avulsa - Tamanho 48. Shorts Calcinha 2ª Pele",
+"p": null,
+"i": "img/97.jpg",
+"x": []
+},
+{
+"id": 98,
+"n": "Shorts Calcinha 2ª Pele",
+"r": "024",
+"c": "Calçolas & Segunda Pele",
+"d": "MOD/ 297 Tecido de Microfibra com elastano Disponível: Tamanho M ao 48 Para vestir por debaixo de saias/vestidos que possuem transparência ou evitar assaduras nas pernas.",
+"p": null,
+"i": "img/98.jpg",
+"x": [
+"img/98_2.jpg"
+]
+},
+{
+"id": 99,
+"n": "Blusa Segunda Pele",
+"r": "5015",
+"c": "Calçolas & Segunda Pele",
+"d": "Blusa manga longa com gola média Material: Microfibra canelada Disponível: Tamanho P ao GG Blusa Tule",
+"p": null,
+"i": "img/99.jpg",
+"x": [
+"img/99_2.jpg"
+]
+},
+{
+"id": 100,
+"n": "Blusa Tule",
+"r": "1233",
+"c": "Calçolas & Segunda Pele",
+"d": "Unidade Tecido: Tule rendado Modelo - blusa manga longa com gola media, com trasparência Disponível: Tamanho P ao GG",
+"p": null,
+"i": "img/100.jpg",
+"x": [
+"img/100_2.jpg",
+"img/100_3.jpg"
+]
+},
+{
+"id": 101,
+"n": "Cueca Boxer Microfibra",
+"r": "900",
+"c": "Cuecas",
+"d": "Unidade Elástico no cós à mostra Lisa (Cor Sólida) - Microfibra de poliamida Disponível; Tamanho P ao XG · Ref. 900X - Unidade Tamanho XG- 48 Boxer Elástico (CÓS) Embutido",
+"p": null,
+"i": "img/101.jpg",
+"x": []
+},
+{
+"id": 102,
+"n": "Boxer com Elástico Embutido",
+"r": "949",
+"c": "Cuecas",
+"d": "Unidade Elástico embutido - Estampada ou Lisa (Cor Sólida) - Microfibra de poliamida Disponível: Tamanho P ao 48 · Ref. 949X - Unidade Tamanho XG - 48 Boxer Infantil",
+"p": null,
+"i": "img/102.jpg",
+"x": [
+"img/102_2.jpg"
+]
+},
+{
+"id": 103,
+"n": "Boxer Infantil",
+"r": "914",
+"c": "Cuecas",
+"d": "Unidade Tecido Estampado Variado de Poliéster ou Microfibra Modelo - 914 Disponível: Tamanho PP ao XG",
+"p": null,
+"i": "img/103.jpg",
+"x": []
+},
+{
+"id": 104,
+"n": "Camiseta Feminina",
+"r": "5007",
+"c": "Sport Casual",
+"d": "Camiseta 95% algodão e 5% elastano, detalhe logo. Tamanhos: P ao 48",
+"p": null,
+"i": "img/104.jpg",
+"x": []
+},
+{
+"id": 105,
+"n": "Camiseta Masculina",
+"r": "5006",
+"c": "Sport Casual",
+"d": "Camiseta 95% algodão e 5% elastano, detalhe logo. Tamanhos: P ao 48",
+"p": null,
+"i": "img/105.jpg",
+"x": [
+"img/105_2.jpg"
+]
+},
+{
+"id": 106,
+"n": "Bermuda Feminina",
+"r": "3607",
+"c": "Sport Casual",
+"d": "Bermuda tactel, cós elástico, cordão, detalhe em logo. Tamanhos: P ao 48",
+"p": null,
+"i": "img/106.jpg",
+"x": []
+},
+{
+"id": 107,
+"n": "Bermuda Masculina",
+"r": "3404",
+"c": "Sport Casual",
+"d": "Bermuda tactel, cós elástico, cordão, bolsos laterais, detalhe em logo. Tamanhos: P ao 48",
+"p": null,
+"i": "img/107.jpg",
+"x": [
+"img/107_2.jpg",
+"img/107_3.jpg"
+]
+},
+{
+"id": 1,
+"n": "Calcinha Absorvente Ciclos",
+"r": "—",
+"c": "Saúde & Bem-estar",
+"d": "Quatro camadas macias e respiráveis com tecnologia absorvente e antioxidante que elimina odores. Recomendada por ginecologistas e dermatologicamente testada. Lavável e reutilizável (forro preto). Modelos Confort e Slim. Tamanhos: P ao XG.",
+"p": null,
+"i": "img/1.jpg",
+"x": [
+"img/1_2.jpg",
+"img/1_3.jpg"
+]
+},
+{
+"id": 2,
+"n": "Sutiã Mastectomia",
+"r": "—",
+"c": "Saúde & Bem-estar",
+"d": "Projetado para realçar a beleza e a confiança das mulheres que passaram pelo tratamento do câncer. Bojo removível preenchido com fibra sintética siliconizada, permitindo ajustes personalizados. Tamanhos: P ao GG. Cores: preto, branco, nude e rosa.",
+"p": null,
+"i": "img/2.jpg",
+"x": [
+"img/2_2.jpg",
+"img/2_3.jpg"
+]
+}
+];
+/* ===================================== */
+const $=s=>document.querySelector(s),R=n=>"R$ "+n.toFixed(2).replace(".",",");
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const ORD=["PP","P","M","G","GG","XG","48","50","52","54"];
+function sizes(d){const m=d.match(/Tamanhos?[:;]?\s*([A-Z0-9\/]+)\s*(?:ao|a|e)\s*([A-Z0-9\/]+)/i);if(m){const f=x=>{x=x.toUpperCase().split("/")[x.includes("/")&&/^G/.test(x)?1:0];return ORD.indexOf(x)};const a=f(m[1]),b=f(m[2]);if(a>=0&&b>=a)return ORD.slice(a,b+1)}return["P","M","G","GG"]}
+let cart=[];try{cart=JSON.parse(localStorage.getItem("c")||"[]")}catch(e){}
+const save=()=>{try{localStorage.setItem("c",JSON.stringify(cart))}catch(e){}$("#cn").textContent=cart.reduce((a,i)=>a+i.q,0)};
+const wa=t=>"https://wa.me/"+(CONFIG.whatsapp||"")+"?text="+encodeURIComponent(t);
+$("#hig").href=CONFIG.instagram;if(CONFIG.logo)$("#logo").innerHTML=`<img src="${esc(CONFIG.logo)}" alt="Logo" style="height:44px;width:44px;border-radius:50%;display:block">`;const hl=$("#hl");hl.src=CONFIG.logo;hl.hidden=false;
+$("#hwa").href=wa("Olá, Moça Bonita! Vim pelo catálogo e gostaria de ajuda.");$("#fab").onclick=()=>open(wa("Olá, Moça Bonita! Vim pelo catálogo e gostaria de ajuda."),"_blank");
+const cats=["Todos",...new Set(DATA.map(p=>p.c))];let cat="Todos";
+$("#chips").innerHTML=cats.map(c=>`<button class="chip${c==="Todos"?" on":""}" data-c="${esc(c)}">${esc(c)}</button>`).join("");
+$("#chips").onclick=e=>{const b=e.target.closest(".chip");if(!b)return;cat=b.dataset.c;document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("on",x===b));draw()};
+$("#q").oninput=draw;
+const price=p=>p.p?`<div class="pr">${R(p.p)}</div>`:`<div class="pr q">Consulte o valor</div>`;
+function draw(){const q=$("#q").value.toLowerCase().trim();const L=DATA.filter(p=>(cat==="Todos"||p.c===cat)&&(!q||(p.n+" "+p.r).toLowerCase().includes(q)));
+$("#grid").innerHTML=L.length?L.map(p=>`<article class="card"><img loading="lazy" src="${p.i}" alt="${esc(p.n)}" data-id="${p.id}"><div class="b"><h3>${esc(p.n)}</h3><span class="ref">Ref. ${esc(p.r)}</span>${price(p)}<button class="btn" data-id="${p.id}">Escolher</button></div></article>`).join(""):"<p>Nenhum produto encontrado.</p>"}
+$("#grid").onclick=e=>{const t=e.target.closest("[data-id]");if(t)show(+t.dataset.id)};
+const ov=$("#ov"),sh=$("#sh");ov.onclick=e=>{if(e.target===ov)ov.classList.remove("on")};
+const close=()=>ov.classList.remove("on");
+function show(id){const p=DATA.find(x=>x.id===id),S=sizes(p.d);let sz=S[0];
+sh.innerHTML=`<button class="x" id="cl">✕</button><h2 style="margin:0 0 8px">${esc(p.n)}</h2><img class="big" id="bg" src="${p.i}" alt="">${p.x.length?`<div class="row" id="th">${[p.i,...p.x].map(s=>`<img src="${s}" style="width:64px;height:84px;object-fit:cover;border-radius:8px;cursor:pointer;border:1px solid var(--ln)">`).join("")}</div>`:""}<p class="note">Ref. ${esc(p.r)} · ${esc(p.c)}</p><p>${esc(p.d)}</p>${price(p)}<b>Tamanho</b><div class="row" id="szs">${S.map((s,i)=>`<button class="sz${i?"":" on"}">${s}</button>`).join("")}</div><b>Cor desejada</b><input type="text" id="cor" placeholder="Ex.: preto, nude, rosa…" style="margin:8px 0 14px"><button class="btn" id="add" style="width:100%;justify-content:center">Adicionar ao pedido</button>`;
+ov.classList.add("on");$("#cl").onclick=close;
+const th=$("#th");if(th)th.onclick=e=>{if(e.target.src)$("#bg").src=e.target.src};
+$("#szs").onclick=e=>{const b=e.target.closest(".sz");if(!b)return;sz=b.textContent;document.querySelectorAll(".sz").forEach(x=>x.classList.toggle("on",x===b))};
+$("#add").onclick=()=>{const cor=$("#cor").value.trim(),k=id+"|"+sz+"|"+cor.toLowerCase(),f=cart.find(i=>i.k===k);f?f.q++:cart.push({k,id,sz,cor,q:1});save();cartView()}}
+const total=()=>cart.reduce((a,i)=>{const p=DATA.find(x=>x.id===i.id);return a+(p.p?p.p*i.q:0)},0);
+const allPriced=()=>cart.length&&cart.every(i=>DATA.find(x=>x.id===i.id).p);
+function msg(){let t="Olá, Moça Bonita! Quero fazer este pedido:\n";cart.forEach(i=>{const p=DATA.find(x=>x.id===i.id);t+=`• ${i.q}x ${p.n} (ref. ${p.r}) – tam. ${i.sz}${i.cor?" – cor: "+i.cor:""}${p.p?" – "+R(p.p*i.q):""}\n`});if(allPriced())t+="\nTotal: "+R(total());return t}
+function crc(s){let c=65535;for(const ch of s){c^=ch.charCodeAt(0)<<8;for(let j=0;j<8;j++)c=c&32768?((c<<1)^4129)&65535:(c<<1)&65535}return c.toString(16).toUpperCase().padStart(4,"0")}
+const tlv=(i,v)=>i+String(v.length).padStart(2,"0")+v,asc=s=>s.normalize("NFD").replace(/[^\x20-\x7e]/g,"").toUpperCase();
+function pix(v){const p=tlv("00","01")+tlv("26",tlv("00","br.gov.bcb.pix")+tlv("01",CONFIG.pixKey))+tlv("52","0000")+tlv("53","986")+tlv("54",v.toFixed(2))+tlv("58","BR")+tlv("59",asc(CONFIG.pixName).slice(0,25))+tlv("60",asc(CONFIG.pixCity).slice(0,15))+tlv("62",tlv("05","***"))+"6304";return p+crc(p)}
+function cartView(){if(!cart.length){sh.innerHTML=`<button class="x" id="cl">✕</button><h2>Seu pedido</h2><p>Seu pedido está vazio.</p>`;ov.classList.add("on");$("#cl").onclick=close;return}
+const ok=allPriced();let pay="";
+if(ok&&CONFIG.pixKey){const c=pix(total());pay+=`<p><b>Pix copia e cola</b></p><div class="pixbox" id="pc">${c}</div><button class="btn ghost" id="cp">Copiar código Pix</button> `}
+if(ok&&CONFIG.payUrl)pay+=`<a class="btn" href="${esc(CONFIG.payUrl)}" target="_blank" rel="noopener">Pagar com cartão</a>`;
+if(!ok)pay=`<p class="note">Alguns itens estão sem valor no catálogo — envie o pedido pelo WhatsApp e confirmamos o total, Pix ou cartão.</p>`;
+sh.innerHTML=`<button class="x" id="cl">✕</button><h2 style="margin:0">Seu pedido</h2>${cart.map((i,n)=>{const p=DATA.find(x=>x.id===i.id);return`<div class="it"><img src="${p.i}" alt=""><div><b>${esc(p.n)}</b><br><span class="note">Ref. ${esc(p.r)} · tam. ${esc(i.sz)}${i.cor?" · "+esc(i.cor):""}</span><br><span class="q"><button data-m="${n}">−</button>${i.q}<button data-a="${n}">+</button></span> ${p.p?R(p.p*i.q):""}</div></div>`}).join("")}${ok?`<h3>Total: ${R(total())}</h3>`:""}<div class="row">${pay}</div><a class="btn wa" style="width:100%;justify-content:center" target="_blank" rel="noopener" href="${wa(msg())}">Finalizar pelo WhatsApp</a>`;
+ov.classList.add("on");$("#cl").onclick=close;
+sh.onclick=e=>{const m=e.target.dataset.m,a=e.target.dataset.a;if(m!=null){cart[m].q--;if(!cart[m].q)cart.splice(m,1);save();cartView()}if(a!=null){cart[a].q++;save();cartView()}};
+const cp=$("#cp");if(cp)cp.onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText($("#pc").textContent);cp.textContent="Copiado!"}}
+$("#hcart").onclick=cartView;save();draw();
+</script></body></html>
